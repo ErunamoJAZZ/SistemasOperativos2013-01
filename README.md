@@ -23,6 +23,10 @@ Para compilar el demonio se necesita el GCC 4.7 o superior, y se usa el comando
 `g++ -std=c++11 demonio.c -o demon_SO`
 cuidando de colocar la compatibilidad con el nuevo estándar de C++ 2011.
 
+_El demonio fue probado en Debian Wheezy. Si se prueba con Ubuntu, hay que mirar 
+primero qué versión del GCC tiene. En teoría, las versiones mayores a la 12.10 
+deberían funcionar sin problemas._
+
 
 #Tecnología usada (?)
 ##El Demonio
